@@ -38,9 +38,9 @@ var commands = {
     length:   { type: 'property' }
   , val:      { type: 'method', arity: 0 }
   , text:     { type: 'method', arity: 0 }
-  , first:    { type: 'method', arity: 0 }
   , width:    { type: 'method', arity: 0 }
   , height:   { type: 'method', arity: 0 }
+  , first:    { type: 'method traverse', arity: 0 }
   , last:     { type: 'method traverse', arity: 0 }
   , parent:   { type: 'method traverse', arity: 0 }
   , next:     { type: 'method traverse', arity: 0 }
