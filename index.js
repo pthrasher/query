@@ -135,7 +135,10 @@ function parse(html, calls) {
         process.exit(ret ? 0 : 1);
     }
   }
-  console.log(ctx.html());  
+
+  ctx.each(function(i, el){
+    console.log($(el).html());
+  });
 }
 
 /**
